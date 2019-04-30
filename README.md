@@ -17,8 +17,9 @@ The project is devided into two main parts:
       2. allocate_process_first_fit(process p1)
       3. allocate_process_best_fit(process p1)
       4. allocate_process_worrst_fit(process p1)
-      5. allocate_process(Enum technique) 
-          (for example best_fit = 0 and so on, and this is the main proram function that performs the wanted allocation method based on              the user input and it calls one of the previous functions to do that)                                            
+      5. allocate_process(Enum technique) //main program functions, it calls one of the previous functions based on input method
+      6. de-allocate_process(process p1) //de-allocate and compact with the neoghbouring hole if there's any
+      7. compact memory()
            
       
       
